@@ -2,16 +2,23 @@
 <html lang="en">
   <head>
     <title>User Info Microservice</title>
+    <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="styles/styles.css" />
   </head>
   <body class="body">
     <main class="container">
       <h2>User Info Microservice</h2>
       <h4>About:</h4>
-      <p>A practice project from the curriculum of <a href="http://freecodecamp.com/">freeCodeCamp</a>. A Node/Express project that returns the IP address, language, and operating system of the requester. The source code for the entire project can be seen on GitHub here: <a href="https://github.com/hiltydiggs/user-info-microservice">https://github.com/hiltydiggs/user-info-microservice</a></p>
+      <p>A practice project from the curriculum of <a href="http://freecodecamp.com/" target="_blank">freeCodeCamp</a>. A Node/Express project that returns the IP address, language, and operating system of the requester. The source code for the entire project can be seen on GitHub here: <a href="https://github.com/hiltydiggs/user-info-microservice" target="_blank">https://github.com/hiltydiggs/user-info-microservice</a></p>
       <h4>Usage:</h4>
-      <p>Live URL: <a href="">/get-info</a></p>
-      <p>Returns: {}</p>
+      <p>URL: <a href="/get-info" target="_blank">http://user-info-microservice.azurewebsites.net/get-info/</a></p>
+      <p>Returns:<br />
+        {<br />
+        &ensp; "ip-address": "50.186.XXX.XX:XXXXX",<br />
+        &ensp; "language": "en-US",<br />
+        &ensp; "operating-system": "Windows 10 0.0.0",<br />
+        &ensp; "browser": "Chrome 52.0.2743"<br />
+        }</p>
     </main>
   </body>
 </html>
